@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "vendingmach_bf917526"
+        },
+        {
+            "args": [
+                "5",
+                "9",
+                "125",
+                "-64",
+                "78",
+                "-1",
+                "359"
+            ]
+        }
+    ]
+}
