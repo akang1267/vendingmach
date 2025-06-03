@@ -14,23 +14,24 @@ public class action implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (label.equals("A1")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose Monster B-Ultra!\n Credit: 2.50");
         } else if (label.equals("A2")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose Redbull! (Adelle's Favorite!)\n Credit: 3.00");
         } else if (label.equals("A3")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose Rockstar!\n Credit: 2.75");
         } else if (label.equals("B1")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose Monster Energy!\n Credit: 2.50");
         } else if (label.equals("B2")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose Monster Ultra!\n Credit: 2.50");
         } else if (label.equals("B3")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose NOS!\n Credit: 1.75");
         } else if (label.equals("C1")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose Mtn Dew!\n Credit: 2.00");
         } else if (label.equals("C2")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose Pepsi!\n Credit: 2.50");
         } else if (label.equals("C3")) {
-            System.exit(0);
+            JOptionPane.showMessageDialog(null, "You chose Coke!\n Credit: 2.50");
         }
     }
+     
 }

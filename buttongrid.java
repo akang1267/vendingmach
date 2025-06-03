@@ -2,11 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class buttongrid extends JFrame {
-
     
     public buttongrid() {
         setTitle("Button Grid");
-        setSize(300, 300);
+        setSize(250, 400);
         setLayout(new GridLayout(3, 3));
 
         String[] labels = {"A1", "A2", "A3", "B1", "B2", "B3", "C1", "C2", "C3"};
