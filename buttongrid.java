@@ -1,8 +1,16 @@
 import javax.swing.*;
 import java.awt.*;
-
+/**
+ * Class that makes the JFrame for the Button Grid
+ * @author Adelle.Kang
+ * @version 1.0.0
+ */
 public class buttongrid extends JFrame {
     
+    /**
+     * Constructor
+     * Makes the 3x3 Layout
+     */
     public buttongrid() {
         setTitle("Button Grid");
         setSize(250, 400);

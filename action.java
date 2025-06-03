@@ -1,17 +1,31 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+/**
+ * Class that overlooks the action of all buttons
+ * @author Adelle.Kang
+ * @version 1.0.0
+ */
 
 public class action implements ActionListener {
     private String label;
     private JButton button;
 
+    /**
+     * Constructor
+     * @param label
+     * @param button
+     */
     public action(String label, JButton button) {
         this.label = label;
         this.button = button;
     }
 
     @Override
+    /**
+     * Gets age at random between one under and one more.
+     * @param actionlistener for JFrame
+     */
     public void actionPerformed(ActionEvent e) {
         if (label.equals("A1")) {
             JOptionPane.showMessageDialog(null, "You chose Monster B-Ultra!\n Credit: 2.50");

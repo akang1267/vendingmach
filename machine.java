@@ -1,8 +1,16 @@
 import javax.swing.*;
 import java.awt.*;
+/**
+ * Class that makes the JFrame for the vending machine
+ * @author Adelle.Kang
+ * @version 1.0.0
+ */
 
 public class machine extends JFrame {
-
+    /**
+     * Constructor
+     * Makes the Vending Machine and Scales it
+     */
     public machine() {
         setTitle("Machine");
         setSize(450, 700);
